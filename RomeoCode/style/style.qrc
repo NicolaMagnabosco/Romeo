@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/Romeo">
+        <file>default.css</file>
+        <file>subjects.css</file>
+        <file>welcome.css</file>
+        <file>datasets.css</file>
+        <file>groups.css</file>
+        <file>protocols.css</file>
+        <file>results.css</file>
+        <file>analysis.css</file>
+        <file>toolbar.css</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>com.sevenmonkeys.romeo</namespace>
+	<virtualFolder>doc</virtualFolder>
+	<filterSection>
+		<toc>
+			<section title="Romeo Application Manual" ref="index.html">
+				<section title = "Create New Subject" ref="./createsubject.html"></section>
+				<section title = "View Subjects" ref ="./visualizesubject.html"></section>
+				<section title = "Create New Group" ref="./creategroup.html"></section>
+				<section title = "View Groups" ref ="./visualizegroup.html"></section>
+				<section title = "Create New Protocol" ref = "./createprotocol.html"></section>
+				<section title = "View Protocols" ref ="./visualizeprotocol.html"></section>
+				<section title = "New Dataset" ref ="./createdataset.html"></section>
+				<section title = "View Datasets" ref = "./visualizedataset.html"></section>
+				<section title = "Start Analysis" ref ="./analysisdetails.html"></section>
+				<section title ="Visualize Results" ref ="./analysisresult.html"></section>
+			</section>
+		</toc>
+		<keywords>
+			 <keyword name="Romeo" ref="./index.html"/>
+			 <keyword name="New Subject" ref="./createsubject.html"/>
+			 <keyword name="View Subjects" ref="./visualizesubject.html"/>
+			 <keyword name="New Group" ref="./creategroup.html"/>
+			 <keyword name="View Groups" ref="./visualizegroup.html"/>
+			 <keyword name="New Protocol" ref="./createprotocol.html"/>
+			 <keyword name="View Protocols" ref="./visualizeprotocol.html"/>
+			 <keyword name="New Dataset" ref="./createdataset.html"/>
+			 <keyword name="View Datasets" ref="./visualizedataset.html"/>
+			 <keyword name ="Start Analysis" ref="./analysisdetails.html"/>
+			 <keyword name="Visualize Results" ref="./analysisresult.html"/>
+		</keywords>
+		<files>
+			<file>index.html</file>
+			<file>createsubject.html</file>
+			<file>visualizesubject.html</file>
+			<file>creategroup.html</file>
+			<file>visualizegroup.html</file>
+			<file>createprotocol.html</file>
+			<file>visualizeprotocol.html</file>
+			<file>createdataset.html</file>
+			<file>visualizedataset.html</file>
+			<file>analysisdetails.html</file>
+			 <file>analysisresult.html</file>
+			 <file>images/*.png</file>
+		</files>
+	</filterSection>
+</QtHelpProject>

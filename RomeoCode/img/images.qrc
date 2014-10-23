@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/Romeo">
+        <file>romeoLogo.png</file>
+        <file>romeoLogo.icns</file>
+        <file>help.png</file>
+        <file>welcome/newDataset.png</file>
+        <file>welcome/newGroup.png</file>
+        <file>welcome/newProtocol.png</file>
+        <file>welcome/newSubject.png</file>
+        <file>welcome/showDatasets.png</file>
+        <file>welcome/showGroups.png</file>
+        <file>welcome/showProtocols.png</file>
+        <file>welcome/showSubjects.png</file>
+        <file>welcome/startAnalysis.png</file>
+        <file>romeoLogoTransparent.png</file>
+        <file>welcome/showResults.png</file>
+        <file>cross.png</file>
+        <file>tick.png</file>
+        <file>toolbar/manage_Datasets.png</file>
+        <file>toolbar/manage_Groups.png</file>
+        <file>toolbar/manage_Protocols.png</file>
+        <file>toolbar/manage_Subjects.png</file>
+        <file>toolbar/new_Dataset.png</file>
+        <file>toolbar/new_Group.png</file>
+        <file>toolbar/new_Protocol.png</file>
+        <file>toolbar/new_Subject.png</file>
+        <file>toolbar/show_Results.png</file>
+        <file>toolbar/start_Analysis.png</file>
+        <file>toolbar/exit.png</file>
+        <file>toolbar/home.png</file>
+        <file>toolbar/more.png</file>
+        <file>toolbar/shortcuts.png</file>
+        <file>toolbar/manual.png</file>
+        <file>toolbar/videoguide.png</file>
+        <file>toolbar/about.png</file>
+        <file>toolbar/info.png</file>
+        <file>checkboxNo.png</file>
+        <file>checkboxYes.png</file>
+        <file>imgError.png</file>
+        <file>noMask.png</file>
+    </qresource>
+</RCC>

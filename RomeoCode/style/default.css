@@ -1,0 +1,101 @@
+QMainWindow#MainWindow{
+    background-color: #ecebe8;
+}
+
+QMenuBar{
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 lightgray, stop:1 darkgray);
+    color: #4F4F4F;
+}
+
+QMenuBar::item {
+    spacing: 5px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+QMenuBar::item:selected {
+    background-color: #a8a8a8;
+}
+
+QMenuBar::item:pressed {
+    background-color: #888888;
+    color: #EFEFEF;
+}
+
+QToolTip {
+    border: 2px solid gray;
+    padding: 3px;
+    border-radius: 3px;
+    opacity: 230;
+    background-color: azure;
+    color:black;
+}
+
+QStatusBar {
+    background-color: lightgray;
+    border-top: 1px inset darkgray;
+}
+
+QLineEdit{
+    height:40px;
+}
+
+QComboBox{
+    height:30px;
+}
+
+QGroupBox{
+    font:bold;
+}
+
+QPushButton{
+    height:30px;
+}
+
+QPushButton#helpButton{
+    image: url(":/Romeo/help.png");
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px none none;
+    background-color: none;
+}
+
+QPushButton#helpButton:pressed{
+    background-color:#fff;
+    border: 0px inset none;
+}
+
+QLabel#formInfo{
+    color:#808080;
+    font-size:12px;
+}
+
+QLabel#labelEmpty{
+    color:red;
+    font-size:20px;
+}
+
+QWidget#successWidget{
+    background: #67E667 left center no-repeat url(":/Romeo/tick.png");
+    border-radius: 10px;
+    border: 3px solid #00CC00;
+}
+
+QWidget#errorWidget{
+    background: #FF7373 left center no-repeat url(":/Romeo/cross.png");
+    border-radius: 10px;
+    border: 3px solid #FF4040;
+}
+
+QLabel#resultMessage{
+    color:black;
+    font-size:13px;
+    font-weight:bold;
+    padding:3px 3px 3px 50px;
+}
+
+QLabel#underline{
+    text-decoration:underline;
+}

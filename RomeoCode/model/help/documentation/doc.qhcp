@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QHelpCollectionProject version="1.0">
+	<assistant>
+		<title>Romeo User Guide</title>
+		<applicationIcon>images/icon.png</applicationIcon>
+		<startPage>qthelp://com.sevenmonkeys.romeo/doc/index.html</startPage>
+	</assistant>
+	 <docFiles>
+	     <generate>
+	         <file>
+	             <input>doc.qhp</input>
+	             <output>doc.qch</output>
+	         </file>
+	     </generate>
+     <register>
+         <file>doc.qch</file>
+     </register>
+ </docFiles>
+</QHelpCollectionProject>

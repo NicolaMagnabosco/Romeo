@@ -1,0 +1,172 @@
+QWidget#WelcomeView QPushButton{
+    min-height:60px;
+}
+
+QWidget#WelcomeView QGroupBox{
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size:15px;
+    margin-top: 10px;
+}
+
+QWidget#WelcomeView QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center; /* position at the top center */
+    padding: 0px 5px;
+}
+
+QWidget#WelcomeView QGroupBox#boxAnalysis,
+QWidget#WelcomeView QGroupBox#boxGuide,
+QWidget#WelcomeView QGroupBox#boxInfo,
+QWidget#WelcomeView QGroupBox#boxExit{
+    border: 2px solid lightgray;
+}
+
+QFrame#frameLeft{
+    margin: 10px 20px 10px 10px;
+}
+
+QFrame#frameLeft QGroupBox{
+    margin-bottom: 10px;
+}
+
+QFrame#frameLeft QGroupBox:last{
+    margin-bottom: 0px;
+}
+
+QFrame#frameLeft QPushButton {
+    background-color: #c3c3c3;
+    border-radius: 10px;
+    border: 1px outset #7e7e7e;
+}
+
+QFrame#frameLeft QPushButton:hover {
+    background-color: #dddddd;
+}
+
+QFrame#frameLeft QPushButton:pressed {
+    background-color: #989898;
+    border-style: inset;
+}
+
+QFrame#frameRight{
+    background-color: #989898;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0px;
+}
+QFrame#frameRight QWidget#widgetRomeo{
+    padding: 20px;
+    image: url(":/Romeo/romeoLogoTransparent.png");
+}
+
+QFrame#frameRight QGroupBox{
+    margin: 10px;
+}
+
+QGroupBox#boxAnalysis QPushButton,
+QGroupBox#boxGuide QPushButton,
+QGroupBox#boxInfo QPushButton,
+QGroupBox#boxExit QPushButton{
+    background-color: #dddddd;
+    border-radius: 10px;
+    border: 1px outset #7e7e7e;
+}
+
+QGroupBox#boxAnalysis QPushButton:hover,
+QGroupBox#boxGuide QPushButton:hover,
+QGroupBox#boxInfo QPushButton:hover,
+QGroupBox#boxExit QPushButton:hover{
+    background-color: #c3c3c3;
+}
+
+QGroupBox#boxAnalysis QPushButton:pressed,
+QGroupBox#boxGuide QPushButton:pressed,
+QGroupBox#boxInfo QPushButton:pressed,
+QGroupBox#boxExit QPushButton:pressed{
+    background-color: #989898;
+    border-style: inset;
+}
+
+QPushButton#btnNewSubject,
+QPushButton#btnNewGroup,
+QPushButton#btnNewProtocol,
+QPushButton#btnNewDataset,
+QPushButton#btnShowSubject,
+QPushButton#btnShowGroup,
+QPushButton#btnShowProtocol,
+QPushButton#btnShowDataset{
+    margin:10px;
+}
+
+QPushButton#btnStartAnalysis,
+QPushButton#btnAnalysisResults,
+QPushButton#btnExit{
+    margin:10px;
+}
+
+QPushButton#btnUserGuide,
+QPushButton#btnVideoGuide,
+QPushButton#btnShortcuts,
+QPushButton#btnAbout{
+    margin: 10px 5px;
+}
+
+QPushButton#btnNewSubject{
+    image: url(":/Romeo/welcome/newSubject.png");
+}
+
+QPushButton#btnNewGroup{
+    image: url(":/Romeo/welcome/newGroup.png");
+}
+
+QPushButton#btnNewProtocol{
+    image: url(":/Romeo/welcome/newProtocol.png");
+}
+
+QPushButton#btnNewDataset{
+    image: url(":/Romeo/welcome/newDataset.png");
+}
+
+QPushButton#btnShowSubject{
+    image: url(":/Romeo/welcome/showSubjects.png");
+}
+
+QPushButton#btnShowGroup{
+    image: url(":/Romeo/welcome/showGroups.png");
+}
+
+QPushButton#btnShowProtocol{
+    image: url(":/Romeo/welcome/showProtocols.png");
+}
+
+QPushButton#btnShowDataset{
+    image: url(":/Romeo/welcome/showDatasets.png");
+}
+
+QPushButton#btnStartAnalysis{
+    image: url(":/Romeo/welcome/startAnalysis.png");
+}
+
+QPushButton#btnAnalysisResults{
+    image: url(":/Romeo/welcome/showResults.png");
+}
+
+QPushButton#btnUserGuide{
+    image: url(":/Romeo/toolbar/manual.png");
+}
+
+QPushButton#btnVideoGuide{
+    image: url(":/Romeo/toolbar/videoguide.png");
+}
+
+QPushButton#btnShortcuts{
+    image: url(":/Romeo/toolbar/shortcuts.png");
+}
+
+QPushButton#btnAbout{
+    image: url(":/Romeo/toolbar/about.png");
+}
+
+QPushButton#btnExit{
+    image: url(":/Romeo/toolbar/exit.png");
+}

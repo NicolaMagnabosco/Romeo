@@ -1,0 +1,77 @@
+QToolBar {
+    spacing: 3px;
+    padding:3px;
+    background-color:lightgray;
+    border-bottom:1px solid #8f8f91;
+}
+
+QToolBar::separator {
+    background: #8f8f91;
+    width:1px;
+    margin: 0 1px 0 1px;
+}
+
+QToolButton {
+    background-color: #c3c3c3;
+    border: 1px outset #7e7e7e;
+    border-radius: 5px;
+    width:54px;
+    height:50px;
+}
+QToolButton:hover {
+    background-color: #dddddd;
+}
+
+QToolButton:pressed {
+    background-color: #989898;
+    border-style: inset;
+}
+
+QToolButton#exitButton,
+QToolButton#homeButton{
+    width:50px;
+}
+
+QToolButton#helpButton{
+    width:25px;
+}
+
+QToolButton#newSubjectButton {
+    image: url(":/Romeo/toolbar/new_Subject.png");
+}
+QToolButton#newGroupButton {
+    image: url(":/Romeo/toolbar/new_Group.png");
+}
+QToolButton#newProtocolButton {
+    image: url(":/Romeo/toolbar/new_Protocol.png");
+}
+QToolButton#newDatasetButton {
+    image: url(":/Romeo/toolbar/new_Dataset.png");
+}
+QToolButton#manageSubjectButton {
+    image: url(":/Romeo/toolbar/manage_Subjects.png");
+}
+QToolButton#manageGroupButton {
+    image: url(":/Romeo/toolbar/manage_Groups.png");
+}
+QToolButton#manageProtocolButton {
+    image: url(":/Romeo/toolbar/manage_Protocols.png");
+}
+QToolButton#manageDatasetButton {
+    image: url(":/Romeo/toolbar/manage_Datasets.png");
+}
+QToolButton#startAnalysisButton {
+    image: url(":/Romeo/toolbar/start_Analysis.png");
+}
+QToolButton#resultsButton {
+    image: url(":/Romeo/toolbar/show_Results.png");
+}
+QToolButton#homeButton {
+    image: url(":/Romeo/toolbar/home.png");
+}
+QToolButton#helpButton {
+    image: url(":/Romeo/toolbar/more.png");
+}
+QToolButton#exitButton {
+    image: url(":/Romeo/toolbar/exit.png");
+}

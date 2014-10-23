@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>User Manual</title>
+	</head>
+	<body>
+			<div id="introduction">
+				<h1>Introduction</h1>
+				<div id="howtoread">
+					<h2>How to read this manual</h2>
+					<p>This manual will guide you through the execution of the steps that will bring you
+						to know and use the features of Romeo, at best. 
+					</p>
+					<p>The document is divided in four
+						principal sections:
+						<ul>
+							<li>Getting started: which will provide you the instructions to install and unin-
+								stall the software. It also gives you an overview of the main window of Romeo;</li>
+							<li>Set up analysis: which will guide you through the execution of the necessary
+								steps, that allow you to perform an analysis;</li>
+							<li>Execution of an analysis: which will provide you the instructions to manage
+								and execute an analysis;</li>
+							<li>Visualization and exportation of results: which will guide you through
+								the management of the results obtained from the analysis.</li>
+						</ul>
+					</p>				
+					
+				</div>
+				<div id="overview">
+					<h2>Overview</h2>
+					<p>
+					Romeo is an open source tool that can provide the application of cluster analysis to biomedical data.
+					Furthermore, it is possible to extracts some features of interest from the images and combine
+					them before performing clustering.
+					This technique is used to automate and facilitate the delineation of anatomical structures and
+					other regions of interest, in medical images.
+					The procedure, can accelerate the processing
+					speed and accuracy of the diagnosis, allowing to locate pathological tissues and measure
+					tissue volumes. It has thus great potential for prevention, prognosis, and treatment.
+					</p>
+					<div style="text-align:center">
+						<img  style="text-align:center" src="images/pipe.png"/>
+					</div>
+				</div>
+				<div id="whyromeo">
+					<h3>Why Romeo?</h3>
+					<ul>
+					<li> Intuitive User Interface Romeo has an intuitive Grafic User Interface that allows it to be used by expert and not expert ICT users;</li>
+					<li> Various cluster algorithms Romeo is the only stand-alone software that integrates three types of Cluster Algorithms by default. In fact, it implements: K-means, Fuzzy C means and Hierarchical algorithms;</li>
+					<li> Supports major data formats This tool can work with 2D, 3D, 2D-t and 3D-t images and supports these file formats: .PNG, .JPG, .BPM, .AVI, NIfTI and Analyze 7.5;</li>
+					<li> Various feature extractors Romeo implements fifteen different Feature Extractors;</li>
+					<li> Independence from file-system Once Romeo has imported data, the user has the freedom to change the location of the imported images in its file-system. In fact, the software saves the images inside itself. Once the user wants to export some image results, Romeo asks the path where the files have to be saved.</li>					
+					</ul>
+				</div>
+				<div id="romeofeatures">
+					<h2>Romeo Features</h2>
+					<ul>
+						<li>
+							Apply mask Enables users to import a mask and associate it to another image. 
+							That mask, works like a filter of interest on the imported image; in other words, it delimits the region
+							which will be analyzed;
+						</li>
+						<li>
+							Create groups of Subjects Enables users to create customized sets of Subjects (an image plus its mask), allowing to perform the algorithms on different images simultaneously;
+						</li>
+						<li>
+							Create Protocols Enable users to create customized Protocols (a set of Feature Extractors plus one o none cluster algorithm. Each algorithm can be customized with its own parameters (like window size, GLCM etc. . . );
+						</li>
+						<li>
+							Create Dataset Enables users to create a customized analysis, formed by a group of Subjects and
+							one or more Protocols. The Dataset also memorize the results of the analysis and permits the user to export them;
+						</li>
+						<li>
+							Possibility of extension with other algorithms Enables developers to extend the set of feature extractors and cluster algorithms with
+							new ones, compatible with supported format Files.
+						</li>
+					</ul>
+				</div>
+				<div id="mainwindow">
+			<h1>Main Window</h1>
+			<div style="text-align:center">
+				<a name="fig2"><img src="images/MainWindow.png"/></a>
+			</div>
+			<p>The Romeo main window includes two major panels. As you can see in <a href="#fig2">Fig. 2</a>, the left panel
+			contains a set of buttons, which will allow you to enter the windows that create and manage
+			the entities of the software (Subjects , group of Subjects, Protocols and Datasets ).
+			The right panel, contains the Analysis section wich includes two buttons that will bring
+			you respectively to the analysis execution window and the results visualization window.
+			The More Help section, instead, includes the links to access the informative materials of
+			the software:
+			</p>
+			<div style="text-align:center">
+				<a name="fig3"><img src="images/MenuToolbar.png"/></a>
+			</div>
+			<ul>
+			<li>
+				<img width="100" height="100"  style="vertical-align:middle;" src="images/manual.png"/>
+				Opens the User Manual of Romeo;
+			</li>
+			<li>
+				<img width="100" height="100"  style="vertical-align:middle;" src="images/videoguide.png"/>
+				Brings to the video tutorial of Romeo;
+			</li>
+			<li>
+				<img width="100" height="100"  style="vertical-align:middle;" src="images/shortcuts.png"/>
+				Shows the keyboard shortcuts;
+			</li>
+			<li>
+				<img width="100" height="100"  style="vertical-align:middle;" src="images/about.png"/>
+				Shows informations about Romeo and its developers.
+			</li>
+			</ul>
+			<div id="enviroment">
+				<h2>Environment</h2>
+				<p>
+					The windows of Romeo, except the Main Window, have a Menu Toolbar on their top, which
+					includes the direct links to all of the functionalities of Romeo. You can drag and drop this
+					Toolbar on the left or right of the window. Below, the explanation of the various buttons
+					<a href="#fig3">(see Fig 3)</a>:
+				</p>
+				<ul>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;" src="images/home.png"/>
+					Brings back to the main window;
+					</li>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;" src="images/new_Subject.png"/>
+					Leads to the Subject creation window;
+					</li>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;" src="images/manage_Subjects.png"/>
+					Leads to the Subject visualization window;
+					</li>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;" src="images/new_Group.png"/>
+					Leads to the group of Subjects creation window;
+					</li>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;" src="images/manage_Groups.png"/>
+					Leads to the groups of Subjects managing window;
+					</li>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;" src="images/new_Protocol.png"/>
+					Leads to the Protocol creation window;
+					</li>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;" src="images/manage_Protocols.png"/>
+					Leads to the Protocols managing window;
+					</li>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;" src="images/new_Dataset.png"/>
+					Leads to the Dataset creation window;
+					</li>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;" src="images/manage_Datasets.png"/>
+					Leads to the Datasets managing window;
+					</li>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;"src="images/start_Analysis.png"/>
+					Leads to the Analysis window;
+					</li>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;" src="images/show_Results.png"/>
+					Leads to the Results window;
+					</li>
+					<li>
+					<img width="100" height="100"  style="vertical-align:middle;" src="images/exit.png"/>
+					Exit from Romeo;
+					</li>
+				</ul>
+				<p>
+					Furthermore, this button is present in every window: <img width="100" height="100"  style="vertical-align:middle;" src="images/icon.png"/>
+					It will provide informations about the functionalities of the current page.
+				</p>
+			</div>
+		</div>
+
+			</div>
+		<body>
+</html>
